@@ -1,8 +1,10 @@
-
+import Header from './Header'
 export default function Projects() {
     return (
         <>
-            <p>These are my projects</p>
+            <div className='projects-body'>
+                <Header />
+            </div>
         </>
     )
 }

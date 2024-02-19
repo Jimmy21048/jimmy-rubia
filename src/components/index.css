@@ -2,17 +2,24 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     /* border:1px solid; */
 }
 :root {
     --background1:#060b14;
+    --background2:#F8F8F8;
     --text1:#4AC9AA;
+    --text2:#C1CBF4;
+    --text3:#757EA0;
 }
 body {
     height:100vh;
     width:100vw;
     overflow: hidden;
     background-color: var(--background1);
+    color: var(--text1);
 }
 
 /* home styles */
@@ -45,7 +52,7 @@ body {
     display:none;
 }
 .home-header .tabs {
-    width:40%;
+    width:50%;
     padding:0 10px;
     display:flex;
     justify-content: space-between;
@@ -66,6 +73,82 @@ body {
     padding:5px 10px;
     border-radius:10px;
 }
+
+/* home hero */
+hr {
+    border:1px solid var(--text1);
+}
+.home-hero {
+    height:90vh;
+    width:100%;
+    display:flex;
+}
+.home-hero-left {
+    width:50%;
+    padding-left:50px;
+    padding-top:40vh;
+}
+.home-hero-left p {
+    font-size:1.2rem;
+    font-weight: 700;
+    color:var(--text3);
+}
+.home-hero-left p:first-of-type {
+    color: var(--text1);
+}
+.home-hero-left h1 {
+    font-size:4.8rem;
+    color: var(--text2);
+    opacity: .8;
+}
+.home-hero-left .langs {
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.home-hero-left .langs .fa-brands {
+    font-size:25px;
+    color: var(--text3);
+}
+.home-hero-left  .explore {
+    margin-top:20px;
+    text-decoration: none;
+    color:var(--text1);
+    padding:10px 20px;
+    border:1px solid;
+    border-radius: 10px;
+    font-size:1.2rem;
+    font-weight:700;
+}
+.explore:hover {
+    background-color: var(--text1);
+    color: var(--background1);
+}
+
+/* projects body */ 
+.projects-body {
+    height:100vh;
+    width:100vw;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    background-color:var(--background2);
+    color: #000;
+}
+.projects-body .home-header {
+    color: #000;
+}
+.projects-body .home-header a {
+    color:#000;
+}
+.projects-body .home-header a:hover {
+    background-color: #000;
+    color:#fff;
+}
+.projects-body hr {
+    border:1px solid;
+}
+
 
 @media screen and (max-width:1000px) {
     .home-body {
@@ -92,6 +175,8 @@ body {
         background-color: var(--background1);
         left:-200px;
         border:1px solid;
+        border-left:none;
+        border-top:none;
     }
     #btn1, #btn2 {
         display:initial;
@@ -116,6 +201,48 @@ body {
         cursor:pointer;
     }
     .home-header label .fa-solid {
-        font-size:25px;
+        font-size:30px;
+    }
+
+    /* home hero */
+    .home-hero {
+        flex-direction:column-reverse;
+    }
+    .home-hero-left {
+        width:100%;
+        height:60vh;
+        padding-top:10px;
+        padding-left:15px;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom:10vh;
+    }
+    .home-hero-left h1 {
+        font-size:3.0rem;
+        z-index: -1;
+    }
+    .explore {
+        width:max-content;
+    }
+
+    /* projects body */
+    .projects-body .home-header .tabs {
+        background-color:var(--background2);
+    }
+    .projects-body .home-header .tabs a:hover {
+        background-color:#000;
+        color: #fff;
+    }
+}
+@media screen and (max-width:300px) {
+    .home-hero-left {
+        padding-left:5px;
+    }
+    .home-hero-left p {
+        font-size:0.9rem;
+    }
+    .home-hero-left h1 {
+        font-size:2.3rem;
     }
 }
