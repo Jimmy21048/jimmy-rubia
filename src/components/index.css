@@ -174,20 +174,23 @@ hr {
 .projects-link {
     height:400px;
     width:400px;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 .projects-link img {
     height:inherit;
     width: inherit;
+    object-fit:cover;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px black;
 }
 .projects-hero-content {
     width:400px;
     height:max-content;
     padding:20px;
     border-radius: 20px;
-    background-color:black;
-    color: white;
-    font-weight:200;
+    /* background-color:black; */
+    color: black;
+    font-weight:500;
     font-size:1.2rem;
     display:flex;
     align-items: center;
@@ -287,20 +290,19 @@ hr {
         flex-direction: column;
     }
     .projects h2 {
-        margin-top:30px;
+        margin:20px 0;
     }
     .projects-link {
-        height:200px;
-        width:250px;
+        height:300px;
+        width:350px;
     }
     .projects-link img {
         height:inherit;
         width: inherit;
-        border-radius: 20px;
     }
     .projects-hero-content {
         width:max-content;
-        max-width:200px;
+        max-width:300px;
         height:30vh;
         padding:10px;
         font-size:1rem;
