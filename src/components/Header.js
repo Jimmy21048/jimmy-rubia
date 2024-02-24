@@ -15,7 +15,6 @@ export default function Header() {
                     <Link to=''>Contacts</Link>
                 </div>
             </header>
-            <hr />
         </>
     )
 }
