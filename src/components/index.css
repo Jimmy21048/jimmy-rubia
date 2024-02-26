@@ -177,7 +177,7 @@ hr {
 .projects-link img {
     height:inherit;
     width: inherit;
-    object-fit:cover;
+    object-fit:fill;
     border-radius: 20px;
     box-shadow: 4px 4px 4px 4px black;
 }

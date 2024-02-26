@@ -8,7 +8,7 @@ export default function Projects() {
                     <h2>Library Management System</h2>
                     <div className='projects-hero'>
                         <div class='projects-link' href=''>
-                            <img src='./images/lib3.png' alt='Book master' />
+                            <img src='./images/lib3.jpg' alt='Book master' />
                         </div>
                         <div className='projects-hero-content'>
                         "Welcome to BookMaster: Your Gateway to Library Management Excellence!
@@ -23,7 +23,7 @@ export default function Projects() {
                     <h2>Church Website</h2>
                     <div className='projects-hero'>
                         <div class='projects-link' >
-                            <img src='./images/church1.png' alt='Book master' />
+                            <img src='./images/church2.jpg' alt='Book master' />
                         </div>
                         <div className='projects-hero-content'>  
                             A church is a special place where hearts are lifted in worship,
@@ -32,7 +32,7 @@ export default function Projects() {
                             offering a warm and welcoming environment for all who seek spiritual nourishment
                             and community.
                             <a target='_blank' rel='noreferrer' href='https://kag-maili4.netlify.app/' className='view-project'>View project</a>
-                            <a target='_blank' rel='noreferrer' href="" className='view-code'>View Code</a>
+                            <a target='_blank' rel='noreferrer' href="https://github.com/Jimmy21048/kag-maili4" className='view-code'>View Code</a>
                         </div>
                     </div>  
                 </div>
