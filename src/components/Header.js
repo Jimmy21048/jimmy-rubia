@@ -9,10 +9,10 @@ export default function Header() {
                 <div className='tabs'>
                     <label htmlFor='check' id='btn2'><i class="fa-solid fa-xmark"></i></label>
                     <Link to='/' >Home</Link>
-                    <Link to=''>About</Link>
                     <Link to='/projects'>Projects</Link>
-                    <Link to=''>Experience</Link>
-                    <Link to=''>Contacts</Link>
+                    <Link to='/about'>About</Link>
+                    {/* <Link to=''>Experience</Link> */}
+                    {/* <Link to=''>Contacts</Link> */}
                 </div>
             </header>
         </>
