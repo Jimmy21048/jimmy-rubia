@@ -36,6 +36,22 @@ export default function Projects() {
                         </div>
                     </div>  
                 </div>
+
+                <div className='projects hero1'>
+                    <h2>Resort</h2>
+                    <div className='projects-hero'>
+                        <div class='projects-link'>
+                            <img src='./resort.jpg' alt='resort' />
+                        </div>
+                        <div className='projects-hero-content'>
+                        Indulge in exquisite delicacies and enjoy outdoor games.
+                        Perfect for relaxation and adventure, our resort promises
+                        an unforgettable stay with exceptional hospitality in a serene setting.
+                            <a target='_blank' rel='noreferrer' href="https://uradi-encore-hotel.vercel.app" className='view-project'>Visit site</a>
+                            <a target='_blank' rel='noreferrer' href="https://github.com/Jimmy21048/hotel-site" className='view-code'>View Code</a>
+                        </div>
+                    </div>  
+                </div>
                 <hr/>
                 <h3 className='mini-projects'>Mini Projects</h3>
 
