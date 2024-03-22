@@ -41,7 +41,7 @@ export default function Projects() {
                     <h2>Resort</h2>
                     <div className='projects-hero'>
                         <div class='projects-link'>
-                            <img src='./resort.jpg' alt='resort' />
+                            <img src='./images/resort.jpg' alt='resort' />
                         </div>
                         <div className='projects-hero-content'>
                         Indulge in exquisite delicacies and enjoy outdoor games.
