@@ -3,7 +3,7 @@ export default function Header() {
     return (
         <>
             <header className="home-header">
-                <div className="icon">J</div>
+                <Link to="/" className="icon" >J</Link>
                 <input type='checkbox' id='check' />
                 <label htmlFor='check' id='btn1'><i class="fa-solid fa-bars"></i></label>
                 <div className='tabs'>

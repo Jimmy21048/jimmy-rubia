@@ -143,6 +143,10 @@ hr {
     top:0;
     color: #000;
 }
+.icon {
+    text-decoration: none;
+    color: var(--text1);
+}
 .projects-body .home-header a {
     color:#000;
 }

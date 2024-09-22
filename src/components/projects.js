@@ -19,23 +19,6 @@ export default function Projects() {
                         </div>
                     </div>    
                 </div>
-                <div className='projects hero1'>
-                    <h2>Church Website</h2>
-                    <div className='projects-hero'>
-                        <div class='projects-link' >
-                            <img src='./images/church2.jpg' alt='Book master' />
-                        </div>
-                        <div className='projects-hero-content'>  
-                            A church is a special place where hearts are lifted in worship,
-                            minds are nourished with timeless teachings, and souls find sanctuary
-                            in God's love. Find a place, a church that stands as a beacon of faith,
-                            offering a warm and welcoming environment for all who seek spiritual nourishment
-                            and community.
-                            <a target='_blank' rel='noreferrer' href='https://kag-maili4.netlify.app/' className='view-project'>Visit site</a>
-                            <a target='_blank' rel='noreferrer' href="https://github.com/Jimmy21048/kag-maili4" className='view-code'>View Code</a>
-                        </div>
-                    </div>  
-                </div>
 
                 <div className='projects hero1'>
                     <h2>Resort</h2>
@@ -52,40 +35,26 @@ export default function Projects() {
                         </div>
                     </div>  
                 </div>
-                <hr/>
-                <h3 className='mini-projects'>Mini Projects</h3>
 
                 <div className='projects hero1'>
-                    <h2>Music Player</h2>
+                    <h2>Events site</h2>
                     <div className='projects-hero'>
                         <div class='projects-link'>
-                            <img src='./images/music.jpg' alt='music' />
+                            <img src='./images/events.png' alt='events' />
                         </div>
                         <div className='projects-hero-content'>
-                        
-                            "Immerse Yourself in Limitless Melodies: 
-                            Elevate Your Experience with Our Innovative,
-                             Intuitive Music Player Site, 
-                             Where Every Beat Finds its Perfect Pulse!"
-                            <a target='_blank' rel='noreferrer' href="https://jimmy-audio-player.netlify.app" className='view-project'>Visit site</a>
-                            <a target='_blank' rel='noreferrer' href="https://github.com/Jimmy21048/audio-player" className='view-code'>View Code</a>
+                            "Celebrate Every Special Moment! Whether
+                            it's a birthday, Mother's Day, Father's Day,
+                            or any day worth remembering, we've got the
+                            perfect wishes to make your loved ones feel
+                            cherished. Spread joy and make their day
+                            unforgettable!"
+                            <a target='_blank' rel='noreferrer' href="https://my-events-site.vercel.app" className='view-project'>Visit site</a>
+                            <a target='_blank' rel='noreferrer' href="https://github.com/Jimmy21048/events-site" className='view-code'>View Code</a>
                         </div>
                     </div>  
                 </div>
-                <div className='projects hero1'>
-                    <h2>Weather Site</h2>
-                    <div className='projects-hero'>
-                        <div class='projects-link'>
-                            <img src='./images/weather.jpg' alt='weather' />
-                        </div>
-                        <div className='projects-hero-content'>
-                            
-                            "Forecast Your Adventures: Explore the Elements with Our Dynamic Weather Site, Where Every Forecast Becomes Your Guide to Every Day's Journey!"
-                            <a target='_blank' rel='noreferrer' href="https://jimmy-weather-website.netlify.app/" className='view-project'>Visit site</a>
-                            <a target='_blank' rel='noreferrer' href="https://github.com/Jimmy21048/weather-app" className='view-code'>View Code</a>
-                        </div>
-                    </div>  
-                </div>
+                <hr/>
             </div>
         </>
     )
