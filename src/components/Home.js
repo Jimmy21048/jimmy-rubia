@@ -73,6 +73,25 @@ export default function Home() {
                                 </div>
                             </div>  
                         </div>
+                        <hr />
+
+                        <div className='projects hero1'>
+                            <h2>Redoc</h2>
+                            <div className='projects-hero'>
+                                <div class='projects-link'>
+                                    <img src='./images/redoc.jpg' alt='redoc' />
+                                    <div className='projects-content'>
+                                    "Unleash Your Creativity! 🎨✍️ Collaborate, 
+                                    create, and share content seamlessly with our all-in-one platform. 
+                                    Empower your ideas and bring your vision to life—together with Redoc"
+                                    </div>
+                                </div>
+                                <div className='links'>
+                                        <a target='_blank' rel='noreferrer' href="https://redoc-collab.vercel.app" className='view-project'>Visit site</a>
+                                        <a target='_blank' rel='noreferrer' href="https://github.com/Jimmy21048/redoc" className='view-code'>View Code</a>
+                                </div>
+                            </div>  
+                        </div>
                     </div>
                 </div>
         </div>

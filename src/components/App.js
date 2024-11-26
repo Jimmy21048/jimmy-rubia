@@ -1,4 +1,3 @@
-import Header from './Header';
 import About from './About';
 import Home from './Home';
 import './index.css';
