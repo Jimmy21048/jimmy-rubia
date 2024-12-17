@@ -44,7 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    min-height: 60vh;
     padding: 20px;
 }
 .body-animate-title1 h1 {
@@ -94,6 +94,69 @@ body {
     height: 300px;
     width: 300px;
     border-radius: 50%;
+}
+.my-ext {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+}
+.my-ext-title  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    height: 5vh;
+}
+.my-ext-title img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.my-ext-title h1 {
+    font-weight: 600;
+}
+.my-ext-body {
+    height: 50vh;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+}
+.ext-item {
+    width: 500px;
+    min-width: 500px;
+    max-width: 95vw;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #F5F5F5;
+}
+.ext-item h4 {
+    font-style: italic;
+}
+.ext-item p {
+    width: 90%;
+    padding-left: 20px;
+}
+.ext-item a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #f1f2f3;
+    background-color: #1A73E8;
+    width: 140px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .body-left-bottom {
     height: 40vh;

@@ -36,6 +36,24 @@ export default function Home() {
 
                         </div>
                     </div>
+
+                    <div className='my-ext'>
+                        <div className='my-ext-title'>
+                            <img src='./images/chrome-logo.jpg' />
+                            <h1>My Extensions</h1>
+                        </div>
+                        <div className='my-ext-body'>
+                            <div className='ext-item'>
+                                <h4>To-go todo</h4>
+                                <p>
+                                    An extension for saving your todo items on the go. Save your items anytime, anywhere, as you surf through the internet... 
+                                    whichever page you're in, this is your go-to partner
+                                </p>
+                                <Link>Check It Out</Link>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
 
                 <div className='body-right'>
