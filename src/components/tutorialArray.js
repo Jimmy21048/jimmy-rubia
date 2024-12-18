@@ -12,6 +12,7 @@ export const tutorials = [
             { content: "access the list of already saved items.', " },
             { image: '/images/add-items.png' },
 
-        ]
+        ],
+        file: "/to-go todo.zip"
     }
 ]

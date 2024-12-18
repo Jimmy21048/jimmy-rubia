@@ -29,7 +29,7 @@ export default function Tutorial() {
                     }
                 </div>
                 <div className="t-b-right">
-                    <a className = "ext-btn" style={{minHeight: '6vh'}} href="/to-go todo.zip" download={true}>Download Now</a>
+                    <a className = "ext-btn" style={{minHeight: '6vh'}} href={item.file} download={true}>Download Now</a>
                     <h3>Installation</h3>
                     <p>Click on the download link above to get the .zip file </p>
                     <p>Extract the folder from the .zip file</p>

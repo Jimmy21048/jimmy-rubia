@@ -440,6 +440,9 @@ body {
         display: flex;
         gap: 30px;
     }
+    .my-ext {
+        display: none;
+    }
 }
 @media screen and (max-width: 500) {
     
