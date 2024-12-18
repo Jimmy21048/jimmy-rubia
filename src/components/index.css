@@ -17,14 +17,14 @@
 body {
     height:100vh;
     width:100vw;
-    overflow-y: auto;
 }
 
 /* home styles */
 .home-body {
-    height:inherit;
-    width:inherit;
+    height:100vh;
+    width:100vh;
     display: flex;
+    overflow-y: auto;
 }
 .body-left {
     width: 50%;
@@ -293,20 +293,22 @@ body {
     text-decoration: none;
 }
 /* scroll bar */
-::-webkit-scrollbar {
-    width: 10px;
+@media screen and (min-width: 1200px) {
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 1px rgba(128, 128, 128, 0.795); 
+        border-radius: 2px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(226, 226, 226, 0.822); 
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #B2BEB5; 
+    }
 }
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 1px rgba(128, 128, 128, 0.795); 
-    border-radius: 2px;
-}
-::-webkit-scrollbar-thumb {
-    background: rgba(226, 226, 226, 0.822); 
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #B2BEB5; 
-  }
 
 
 /* projects body */ 
