@@ -139,7 +139,7 @@ body {
 }
 .my-ext-body button .fa-solid {
     font-size: 30px;
-    color: #848482;
+    color: #E5E4E2;
 }
 .ext-item {
     width: 500px;
@@ -363,7 +363,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    align-items: start;
+    align-items: flex-start;
 }
 .s-image {
     max-height: 40vh;
@@ -379,9 +379,9 @@ body {
     }
     .body-left {
         width: 100vw;
-        min-height: 100vh;
+        min-height: 90vh;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
     .body-left-top {
         height: 50vh;
