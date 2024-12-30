@@ -4,8 +4,20 @@ import './index.css';
 export default function Home() {
     return (
         <div className="home-body">
+            <i class="fa-solid fa-moon hidden-items-1"></i>
+            <input type='checkbox' hidden id='menu' className='hidden-items-1' />
+            <label htmlFor='menu' className='hidden-items-1 hidden-label'>|||</label>
+            <div className='body-menu hidden-items-1'>
+                <nav style={{height: '5vh', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', paddingRight: '20px'}} >
+                    <label htmlFor='menu' >X</label>
+                </nav>
+                <a>Chrome Extensions</a>
+                <a>Projects</a>
+            </div>
                 <div className='body-left'>
                     <div className='body-left-top'>
+                        
+                        
                         <img className='profile-image' src='./images/jimmy1.avif' alt='jimmy rubia' />
                     </div>
                     <div className='body-left-bottom'>
@@ -22,7 +34,7 @@ export default function Home() {
                         <Link className='about-link' to={'/about'}>About me</Link>
                     </div>
                     <div className='body-animate-title1'>
-                        <h1 data-aos="slide-right" data-aos-delay="90" data-aos-duration="1000">Technologies</h1>
+                        <h1>Technologies</h1>
                         <div className='animate-techs'>
                             <i data-aos='zoom-in' data-aos-delay="100" data-aos-duration="800" class="fa-brands fa-html5">  HTML</i>
                             <i data-aos='zoom-in' data-aos-delay="200" data-aos-duration="900" class="fa-brands fa-css3">  CSS</i>
@@ -40,7 +52,7 @@ export default function Home() {
                     <div className='my-ext'>
                         <div className='my-ext-title'>
                             <img src='./images/chrome-logo.jpg' />
-                            <h1 data-aos="zoom-in" data-aos-delay="100" data-aos-duration="800" >My Extensions</h1>
+                            <h1 >My Extensions</h1>
                         </div>
                         <div className='my-ext-body'>
                             <button><i class="fa-solid fa-angle-left"></i></button>
@@ -58,9 +70,9 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className='body-right'>
+                <div className='body-right' id='projects-panel'>
                     <div className='body-right-top'>
-                        <i class="fa-solid fa-moon"></i>
+
                     </div>
                     <div className='body-right-bottom'>
                         <h3>Projects</h3>

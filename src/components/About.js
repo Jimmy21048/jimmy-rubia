@@ -6,6 +6,8 @@ export default function About() {
                 <Header />
                 <div className="about-hero">
                     <h2>ABOUT</h2>
+                    <a className="ext-btn" href="/jimmy rubia CV.pdf" download={true} >Download CV</a>
+                    <iframe src="/jimmy rubia CV.pdf" width = "800" />
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                      sed do eiusmod tempor incididunt ut labore et dolore magna
