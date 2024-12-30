@@ -36,12 +36,12 @@ export default function Home() {
                     <div className='body-animate-title1'>
                         <h1>Technologies</h1>
                         <div className='animate-techs'>
-                            <i data-aos='zoom-in' data-aos-delay="100" data-aos-duration="800" class="fa-brands fa-html5">  HTML</i>
-                            <i data-aos='zoom-in' data-aos-delay="200" data-aos-duration="900" class="fa-brands fa-css3">  CSS</i>
-                            <i data-aos='zoom-in' data-aos-delay="300" data-aos-duration="1000" class="fa-brands fa-js">  JAVASCRIPT</i>
-                            <i data-aos='zoom-in' data-aos-delay="400" data-aos-duration="1100" class="fa-brands fa-react">  REACT</i>
-                            <i data-aos='zoom-in' data-aos-delay="500" data-aos-duration="1200" class="fa-brands fa-node-js">  NODE JS</i>
-                            <i data-aos='zoom-in' data-aos-delay="600" data-aos-duration="1300" class="fa-brands fa-php">  PHP</i>
+                            <i  class="fa-brands fa-html5">  HTML</i>
+                            <i  class="fa-brands fa-css3">  CSS</i>
+                            <i  class="fa-brands fa-js">  JAVASCRIPT</i>
+                            <i class="fa-brands fa-react">  REACT</i>
+                            <i  class="fa-brands fa-node-js">  NODE JS</i>
+                            <i  class="fa-brands fa-php">  PHP</i>
                         </div>
 
                         <div className='socials-animate' >
