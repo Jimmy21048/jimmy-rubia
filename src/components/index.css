@@ -13,7 +13,10 @@
     --hover1:#5c887d;
     --text2:#C1CBF4;
     --text3:#757EA0;
+
+    --dark1: #1b1b32;
 }
+
 body {
     height:100vh;
     width:100vw;
@@ -296,6 +299,11 @@ body {
 .home-header .icon {
     text-decoration: none;
 }
+
+/* dark mode */ 
+.dark-body-left {
+    background-color: var(--dark1);
+}
 /* scroll bar */
 @media screen and (min-width: 1200px) {
     ::-webkit-scrollbar {
@@ -370,22 +378,23 @@ body {
     align-items: flex-start;
 }
 .s-image {
-    max-height: 40vh;
+    max-height: 40vh; 
     max-width: 500px;
     object-fit: cover;
 }
 .hidden-items-1 {
     position: absolute;
 }
-.fa-moon {
+.fa-moon, .fa-sun {
     right: 20px;
     top: 8px;
     font-size: 23px;
 }
 .hidden-label {
     top: 8px;
-    right: 20px;
+    right: 15px;
     display: none;
+    font-size: 23px;
 }
 .body-menu {
     display: none;
@@ -401,8 +410,8 @@ body {
     .hidden-label {
         display: initial;
     }
-    .fa-moon {
-        right: 70px;
+    .fa-moon, .fa-sun {
+        right: 55px;
     }
     .body-menu {
         display: flex;
@@ -419,7 +428,6 @@ body {
         width: 100vw;
         min-height: 90vh;
         display: flex;
-        /* justify-content: space-between; */
     }
     .body-left-top {
         height: 50vh;
@@ -516,6 +524,14 @@ body {
         width: 100%;
         min-width: 0;
         height: 300px;
+    }
+    .about-link {
+        height: 5vh;
+        width: max-content;
+        padding: 0 10px;
+    }
+    .body-menu h5 {
+        padding-left: 10px;
     }
 }
 @media screen and (max-width: 500px) {

@@ -1,13 +1,21 @@
-import Tutorial from './Tutorial';
 import { Link } from 'react-router-dom';
 import Extensions from './Extensions';
+import { useContext, useState } from 'react';
 import './index.css';
+import { DisplayContext } from '../helpers/DisplayContext';
+
 export default function Home() {
+    const { darkMode, setDarkMode } = useContext(DisplayContext)
     return (
-        <div className="home-body">
-            <i class="fa-solid fa-moon hidden-items-1"></i>
+        <div className={ !darkMode ? "home-body" : 'home-body dark-body-left'}>
+            {
+                darkMode ? 
+                <i style={{ color : '#f4f5f6'}} class="fa-solid fa-sun hidden-items-1" onClick={() => setDarkMode(false)} ></i> 
+                : 
+                <i class="fa-solid fa-moon hidden-items-1" onClick={() => setDarkMode(true)} ></i>
+            }
             <input type='checkbox' hidden id='menu' className='hidden-items-1' />
-            <label htmlFor='menu' className='hidden-items-1 hidden-label'>|||</label>
+            <label htmlFor='menu' className='hidden-items-1 hidden-label'><i style={{color : darkMode && '#f5f6f7'}} className='fa-solid fa-bars'></i></label>
             <div className='body-menu hidden-items-1'>
                 <nav style={{height: '5vh', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', paddingRight: '20px'}} >
                     <label htmlFor='menu' >X</label>
@@ -15,27 +23,27 @@ export default function Home() {
                 <h5>Chrome Extensions</h5>
                 <Extensions />
             </div>
-                <div className='body-left'>
+                <div className={ !darkMode ? 'body-left' : 'body-left dark-body-left' }>
                     <div className='body-left-top'>
                         
                         
                         <img className='profile-image' src='./images/jimmy1.avif' alt='jimmy rubia' />
                     </div>
                     <div className='body-left-bottom'>
-                        <h1>JIMMY RUBIA</h1>
-                        <p>Software Engineer</p>
+                        <h1 style={{color : darkMode && '#f5f6f7'}}>JIMMY RUBIA</h1>
+                        <p style={{color : darkMode && '#f5f6f7'}}>Software Engineer</p>
                         <div className='langs'>
-                            <i class="fa-brands fa-html5"></i>
-                            <i class="fa-brands fa-css3"></i>
-                            <i class="fa-brands fa-js"></i>
-                            <i class="fa-brands fa-react"></i>
-                            <i class="fa-brands fa-node-js"></i>
-                            <i class="fa-brands fa-php"></i>
+                            <i style={{color : darkMode && '#f5f6f7'}} class="fa-brands fa-html5"></i>
+                            <i style={{color : darkMode && '#f5f6f7'}} class="fa-brands fa-css3"></i>
+                            <i style={{color : darkMode && '#f5f6f7'}} class="fa-brands fa-js"></i>
+                            <i style={{color : darkMode && '#f5f6f7'}} class="fa-brands fa-react"></i>
+                            <i style={{color : darkMode && '#f5f6f7'}} class="fa-brands fa-node-js"></i>
+                            <i style={{color : darkMode && '#f5f6f7'}} class="fa-brands fa-php"></i>
                         </div>
-                        <Link className='about-link' to={'/about'}>About me</Link>
+                        <Link className='about-link' to={'/about'} style={{color : darkMode && '#f5f6f7'}}>About me</Link>
                     </div>
                     <div className='body-animate-title1'>
-                        <h1>Technologies</h1>
+                        <h1 style={{color : darkMode && '#f5f6f7'}}>Technologies</h1>
                         <div className='animate-techs'>
                             <i  class="fa-brands fa-html5">  HTML</i>
                             <i  class="fa-brands fa-css3">  CSS</i>
@@ -55,7 +63,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className='body-right' id='projects-panel'>
+                <div className={ darkMode ? 'body-right dark-body-left' : 'body-right'} id='projects-panel'>
                     <div className='body-right-top'>
 
                     </div>
@@ -63,12 +71,12 @@ export default function Home() {
                         <h3>Projects</h3>
 
                         <div className='projects hero1'>
-                            <h2>Resort</h2>
+                            <h2  style={{color : darkMode && '#f5f6f7'}}>Resort</h2>
                             <div className='projects-hero'>
                                 <div class='projects-link'>
                                     <img src='./images/resort.jpg' alt='resort' />
 
-                                    <div className='projects-content'>
+                                    <div  style={{color : darkMode && '#f5f6f7'}} className='projects-content'>
                                     Indulge in exquisite delicacies and enjoy outdoor games.
                                     Perfect for relaxation and adventure, our resort promises
                                     an unforgettable stay with exceptional hospitality in a serene setting.
@@ -85,11 +93,11 @@ export default function Home() {
                         <hr />
 
                         <div className='projects hero1'>
-                            <h2>Events site</h2>
+                            <h2  style={{color : darkMode && '#f5f6f7'}}>Events site</h2>
                             <div className='projects-hero'>
                                 <div class='projects-link'>
                                     <img src='./images/events.png' alt='events' />
-                                    <div className='projects-content'>
+                                    <div  style={{color : darkMode && '#f5f6f7'}} className='projects-content'>
                                         "Celebrate Every Special Moment! Whether
                                         it's a birthday, Mother's Day, Father's Day,
                                         or any day worth remembering, we've got the
@@ -108,11 +116,11 @@ export default function Home() {
                         <hr />
 
                         <div className='projects hero1'>
-                            <h2>Redoc</h2>
+                            <h2  style={{color : darkMode && '#f5f6f7'}}>Redoc</h2>
                             <div className='projects-hero'>
                                 <div class='projects-link'>
                                     <img src='./images/redoc.jpg' alt='redoc' />
-                                    <div className='projects-content'>
+                                    <div  style={{color : darkMode && '#f5f6f7'}} className='projects-content'>
                                     "Unleash Your Creativity! 🎨✍️ Collaborate, 
                                     create, and share content seamlessly with our all-in-one platform. 
                                     Empower your ideas and bring your vision to life—together with Redoc"
