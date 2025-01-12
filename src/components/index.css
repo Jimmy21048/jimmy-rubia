@@ -176,6 +176,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+.ext-btn-sm {
+    display: none;
+}
 .body-left-bottom {
     height: 40vh;
     display: flex;
@@ -389,6 +392,7 @@ body {
     right: 20px;
     top: 8px;
     font-size: 23px;
+    padding-top: 5px;
 }
 .hidden-label {
     top: 8px;
@@ -426,11 +430,11 @@ body {
     }
     .body-left {
         width: 100vw;
-        min-height: 90vh;
+        min-height: 100vh;
         display: flex;
     }
     .body-left-top {
-        height: 50vh;
+        height: 65vh;
     }
     .body-animate-title1 {
         display: none;
@@ -440,6 +444,7 @@ body {
     }
     .body-left-bottom {
         gap: 20px;
+        height: 35vh;
         padding:0 20px;
         justify-content: flex-end;
         padding-bottom: 20px;
@@ -520,10 +525,19 @@ body {
     .my-ext-body button {
        display: none;
     }
+    .ext-btn-bg {
+        display: none;
+    }
+    .ext-btn-sm {
+        display: flex;
+    }
     .ext-item {
         width: 100%;
         min-width: 0;
         height: 300px;
+    }
+    .about-hero {
+        padding-bottom: 10vh;
     }
     .about-link {
         height: 5vh;
