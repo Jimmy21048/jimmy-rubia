@@ -123,7 +123,7 @@ body {
 }
 .my-ext-body {
     height: 50vh;
-    width: 100%;
+    width: 90%;
     overflow-x: scroll;
     display: flex;
     justify-content: space-around;
@@ -146,8 +146,8 @@ body {
 }
 .ext-item {
     width: 500px;
-    min-width: 500px;
-    max-width: 95vw;
+    min-width: 400px;
+    max-width: 95%;
     height: 100%;
     padding: 20px;
     display: flex;
@@ -302,7 +302,9 @@ body {
 .home-header .icon {
     text-decoration: none;
 }
-
+.hidden-cv {
+    display: none;
+}
 /* dark mode */ 
 .dark-body-left {
     background-color: var(--dark1);
@@ -543,6 +545,10 @@ body {
         height: 5vh;
         width: max-content;
         padding: 0 10px;
+        display: none;
+    }
+    .hidden-cv {
+        display: flex;
     }
     .body-menu h5 {
         padding-left: 10px;

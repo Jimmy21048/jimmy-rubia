@@ -41,6 +41,7 @@ export default function Home() {
                             <i style={{color : darkMode && '#f5f6f7'}} class="fa-brands fa-php"></i>
                         </div>
                         <Link className='about-link' to={'/about'} style={{color : darkMode && '#f5f6f7'}}>About me</Link>
+                        <a className="ext-btn hidden-cv" href="/jimmy rubia CV.pdf" download={true} >Download CV</a>
                     </div>
                     <div className='body-animate-title1'>
                         <h1 style={{color : darkMode && '#f5f6f7'}}>Technologies</h1>
