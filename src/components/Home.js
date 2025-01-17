@@ -133,6 +133,27 @@ export default function Home() {
                                 </div>
                             </div>  
                         </div>
+                        <hr />
+
+                        <div className='projects hero1'>
+                            <h2  style={{color : darkMode && '#f5f6f7'}}>M-wears</h2>
+                            <div className='projects-hero'>
+                                <div class='projects-link'>
+                                    <img src='./images/wears.jpg' alt='wears store' />
+                                    <div  style={{color : darkMode && '#f5f6f7'}} className='projects-content'>
+                                    "M-Wears is a mini e-commerce static website designed for
+                                    marketing and showcasing a curated selection of trendy 
+                                    and high-quality apparel. This platform serves as an online catalog, 
+                                    allowing visitors to explore a variety of clothing options 
+                                    categorized for ease of navigation."
+                                    </div>
+                                </div>
+                                <div className='links'>
+                                        <a target='_blank' rel='noreferrer' href="https://john-msaani-collections.vercel.app" className='view-project'>Visit site</a>
+                                        <a target='_blank' rel='noreferrer' href="https://github.com/Jimmy21048/wears-store" className='view-code'>View Code</a>
+                                </div>
+                            </div>  
+                        </div>
                     </div>
                 </div>
         </div>
