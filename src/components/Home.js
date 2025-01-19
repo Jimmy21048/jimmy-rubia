@@ -78,10 +78,10 @@ export default function Home() {
                                     <img src='./images/resort.jpg' alt='resort' />
 
                                     <div  style={{color : darkMode && '#f5f6f7'}} className='projects-content'>
-                                    Indulge in exquisite delicacies and enjoy outdoor games.
-                                    Perfect for relaxation and adventure, our resort promises
-                                    an unforgettable stay with exceptional hospitality in a serene setting.
-
+                                    The site mimmicks hotel operations, with services ranging from delicacies,
+                                    room bookings to outdoor engagements. With a serene setting,
+                                    users can indulge in exquisite delicacies
+                                    and enjoy outdoor games.
                                     </div>
                                 </div>
                                 <div className='links'>
@@ -122,9 +122,10 @@ export default function Home() {
                                 <div class='projects-link'>
                                     <img src='./images/redoc.jpg' alt='redoc' />
                                     <div  style={{color : darkMode && '#f5f6f7'}} className='projects-content'>
-                                    "Unleash Your Creativity! 🎨✍️ Collaborate, 
-                                    create, and share content seamlessly with our all-in-one platform. 
-                                    Empower your ideas and bring your vision to life—together with Redoc"
+                                    Redoc is an engagement site that allows users to publish their ideas and opinions.
+                                    It provides a platform for creating and sharing content easily.
+                                    It is also equipped with a collaborative feature where users can 
+                                    engage with each other through peer reviews
                                     </div>
                                 </div>
                                 <div className='links'>
