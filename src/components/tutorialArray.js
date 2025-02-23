@@ -14,5 +14,15 @@ export const tutorials = [
 
         ],
         file: "/to-go todo.zip"
+    }, 
+    {
+        title: "Word Plus",
+        div: [
+            { title1: "Usage" },
+            { content: "After Installation," },
+            { content: "Select a word or phrase in chrome." },
+            { content: "Right click to access the context menu then choose the option 'Find meaning...'" }
+        ]
+
     }
 ]
