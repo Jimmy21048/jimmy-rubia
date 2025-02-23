@@ -52,6 +52,7 @@ export default function Home() {
                             <i class="fa-brands fa-react">  REACT</i>
                             <i  class="fa-brands fa-node-js">  NODE JS</i>
                             <i  class="fa-brands fa-php">  PHP</i>
+                            <i  class="fa-brands fa-python">  Python</i>
                         </div>
 
                         <div className='socials-animate' >
