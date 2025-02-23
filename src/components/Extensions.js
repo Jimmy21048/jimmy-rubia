@@ -49,7 +49,7 @@ export default function Extensions() {
                         Word plus is an on-page dictionary that gives the meaning of words/phrases
                     </p>
                     <Link className='ext-btn ext-btn-bg' to={`/tutorial/${1}`}>Check It Out</Link>
-                    <a className="ext-btn ext-btn-sm" download={true} href={tutorials[0].file} >Download Now</a>
+                    <a className="ext-btn ext-btn-sm" download={true} href={tutorials[1].file} >Download Now</a>
                 </div>
 
             <button onClick={handleNextExt} ><i className="fa-solid fa-angle-right"></i></button>

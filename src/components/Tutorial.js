@@ -35,7 +35,7 @@ export default function Tutorial() {
                                 return <h4>{x.title1}</h4>
                             }
                             if(x.image) {
-                                return <img style={{ objectFit: 'contain', width: 'min-content', height: 'min-content', maxHeight: '200px', maxWidth: '300px'}} className="s-image" src={x.image} alt="screenshot" />
+                                return <img style={{ objectFit: 'contain', width: 'min-content', height: 'max-content', maxHeight: '300px', maxWidth: '300px'}} className="s-image" src={x.image} alt="screenshot" />
                             }
                             if(x.content) {
                                 return <p>{x.content}</p>

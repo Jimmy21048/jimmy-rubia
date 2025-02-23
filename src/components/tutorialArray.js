@@ -21,8 +21,11 @@ export const tutorials = [
             { title1: "Usage" },
             { content: "After Installation," },
             { content: "Select a word or phrase in chrome." },
-            { content: "Right click to access the context menu then choose the option 'Find meaning...'" }
-        ]
+            { content: "Right click to access the context menu then choose the option 'Find meaning...'" },
+            { image: '/images/word-plus1.png' },
+            { image: '/images/word-plus2.png' }
+        ],
+        file: "/word-plus.zip"
 
     }
 ]
