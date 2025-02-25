@@ -18,7 +18,7 @@ export default function Home() {
             <label htmlFor='menu' className='hidden-items-1 hidden-label'><i style={{color : darkMode && '#f5f6f7'}} className='fa-solid fa-bars'></i></label>
             <div className='body-menu hidden-items-1'>
                 <nav style={{height: '5vh', display: 'flex', alignItems: 'center', justifyContent: 'flex-end', paddingRight: '20px'}} >
-                    <label htmlFor='menu' >X</label>
+                    <label htmlFor='menu' ><i class="fa-solid fa-circle-xmark"></i></label>
                 </nav>
                 <h5>Chrome Extensions</h5>
                 <Extensions />

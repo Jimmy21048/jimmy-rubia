@@ -431,7 +431,6 @@ body {
         width: 100vw;
         position: absolute;
         left: -100vw;
-        border: 1px solid;
         background-color: var(--background2);
     }
     .body-left {
@@ -527,6 +526,7 @@ body {
         justify-content: flex-start;
         padding-top: 20px;
         gap: 10px;
+        margin-bottom: 20px;
     }
     .my-ext-body button {
        display: none;
@@ -538,9 +538,14 @@ body {
         display: flex;
     }
     .ext-item {
+        display: flex !important;
         width: 100%;
         min-width: 0;
         height: 300px;
+    }
+    .fa-circle-xmark {
+        font-size: 25px;
+        margin-top: 10px;
     }
     .about-hero {
         padding-bottom: 10vh;
