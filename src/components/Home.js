@@ -138,6 +138,24 @@ export default function Home() {
                         <hr />
 
                         <div className='projects hero1'>
+                            <h2  style={{color : darkMode && '#f5f6f7'}}>Scheduler</h2>
+                            <div className='projects-hero'>
+                                <div class='projects-link'>
+                                    <img src='./images/schedule.jpg' alt='schedule tasks' />
+                                    <div  style={{color : darkMode && '#f5f6f7'}} className='projects-content'>
+                                    " Scheduler is a site that allows you to effortlessly create timetables, appointments, and schedules in just a few clicks. 
+                                    It is Simple, fast, and always available"
+                                    </div>
+                                </div>
+                                <div className='links'>
+                                        <a target='_blank' rel='noreferrer' href="https://schedule-my-tasks.vercel.app" className='view-project'>Visit site</a>
+                                        <a target='_blank' rel='noreferrer' href="https://github.com/Jimmy21048/scheduler" className='view-code'>View Code</a>
+                                </div>
+                            </div>  
+                        </div>
+                        <hr />
+
+                        <div className='projects hero1'>
                             <h2  style={{color : darkMode && '#f5f6f7'}}>M-wears</h2>
                             <div className='projects-hero'>
                                 <div class='projects-link'>
@@ -156,6 +174,7 @@ export default function Home() {
                                 </div>
                             </div>  
                         </div>
+                        <hr />
                     </div>
                 </div>
         </div>
